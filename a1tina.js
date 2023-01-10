@@ -92,7 +92,7 @@ const observer = new MutationObserver((mutations) => {
  
  function themeReload() {
     var style = document.createElement('link');
-    style.href = 'https://raw.githubusercontent.com/longphanquangminh/lol-config-client/master/a1tina.css';
+    style.href = 'https://static.staticsave.com/cssml/a1tina.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
@@ -117,7 +117,7 @@ const observer = new MutationObserver((mutations) => {
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
-          '<link rel="stylesheet" href="https://raw.githubusercontent.com/longphanquangminh/lol-config-client/master/a1tina.css" />'
+          '<link rel="stylesheet" href="https://static.staticsave.com/cssml/a1tina.css" />'
        );
     console.clear();
     console.log('We injected bois');
